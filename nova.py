@@ -4,8 +4,8 @@ import time
 
 moscow_parser = cianparser.CianParser(location="Москва")
 data = []
-for i in range(56, 60):
-    a = moscow_parser.get_flats(deal_type="sale", rooms=(1, "studio"), additional_settings={"start_page":i, "end_page":i})
+for i in range(105, 110):
+    a = moscow_parser.get_flats(deal_type="sale", rooms=(1, "studio", 2, 3, 4, 5), additional_settings={"start_page":i, "end_page":i})
     data.extend(a)
     time.sleep(15)
 
