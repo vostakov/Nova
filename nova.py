@@ -3,7 +3,7 @@ import pandas as ps
 
 parser = cianparser.CianParser(location="икша")
 
-data = parser.get_flats(deal_type="sale", rooms=(1, 2), additional_settings={"start_page": 12, "end_page": 13}, with_extra_data=True)
+data = parser.get_flats(deal_type="sale", rooms=(1, 2), additional_settings={"start_page": 14, "end_page": 16}, with_extra_data=True)
 
 table = ps.DataFrame(data)
 spisok = table

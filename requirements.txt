@@ -1,2 +1,7 @@
 cianparser
 pandas
+matplotlib
+numpy
+matplotlib
+seaborn 
+missingno
